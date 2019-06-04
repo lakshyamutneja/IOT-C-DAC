@@ -19,13 +19,21 @@
 // the setup routine runs once when you press reset:
 void setup() {                
   // initialize the digital pin as an output.
-  pinMode(78, OUTPUT);     
+  pinMode(77, OUTPUT); 
+  pinMode(78, OUTPUT);
+      
 }
 
 // the loop routine runs over and over again forever:
 void loop() {
-  digitalWrite(78, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);               // wait for a second
-  digitalWrite(78, LOW);    // turn the LED off by making the voltage LOW
+  digitalWrite(77, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);
+  digitalWrite(77, LOW);
+  // wait for a second
+  delay(1000);
+  digitalWrite(78, HIGH);
+  delay(1000);
+  digitalWrite(78, LOW);
+  // turn the LED off by making the voltage LOW
   delay(1000);               // wait for a second
 }
