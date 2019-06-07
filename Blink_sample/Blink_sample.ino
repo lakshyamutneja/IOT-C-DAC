@@ -3,7 +3,7 @@
   The basic Energia example.
   Turns on an LED on for one second, then off for one second, repeatedly.
   Change the LED define to blink other LEDs.
-  
+  n
   Hardware Required:
   * LaunchPad with an LED
   
